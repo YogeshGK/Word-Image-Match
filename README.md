@@ -24,15 +24,21 @@ To run the code in Google collab,
 - create one more folder and provide the path in PADDED_PATH. we will store image after preprocessing here.
 
 ### Results 
-----------------------------------
-Model                       Accuracy
---------------------------------
-kNN :                            1%
-kNN with Features:         0.7%
-Hist. Oriented Gradient:  4%
-Local Binary Pattern:      4%
 
+| Model | Accuracy | 
+|----------|----------|
+| kNN| 1% |
+| kNN with Features| 0.7% |
+| Hist. Oriented Gradient| 4% |
+| Local Binary Pattern| 4% |
 
 ### Future Enhancements
 1. Implement deep learning approaches for image matching.
 2. Utilize vector database
+
+## Badges
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+
