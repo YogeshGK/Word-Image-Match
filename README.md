@@ -14,6 +14,13 @@ The dataset was split into training and testing sets. This segregation was cruci
 ### Nearest Neighbor Algorithm
 The core of the solution lies in the application of the nearest neighbor algorithm, with the cosine metric chosen for its effectiveness in this context. The algorithm was first executed on the training dataset. The resulting model, trained on the characteristics of the dataset, was then applied to the test dataset.
 
+### Computes various features from binary images.
+-  Sum of ones per column
+-  First occurrence of 1 when scanning from top to bottom
+-  First occurrence of 1 when scanning from bottom to top
+-  First occurrence of 1 when scanning from left to right
+-  First occurrence of 1 when scanning from right to left
+
 ### Matching Process
 Upon running the algorithm on the test dataset, it produced indices corresponding to the closest matching images in the training dataset. These indices serve as references, allowing a lookup in the training dataset to find the images most closely related to the input image from the test dataset.
 
