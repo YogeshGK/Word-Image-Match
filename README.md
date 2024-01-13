@@ -1,4 +1,5 @@
 # Word Image Match
+<img src="./img/header.jpeg" alt="Stroke" height="350" width="700">
 
 ## George Washington's Letters Image Matching
 ### Problem Statement
@@ -22,8 +23,16 @@ To run the code in Google collab,
 - copy the contents of ./ground_truth/word_labels.txt to another folder and give the path in GROUND_TRUTH_FILE
 - create one more folder and provide the path in PADDED_PATH. we will store image after preprocessing here.
 
+### Results 
+----------------------------------
+Model                       Accuracy
+--------------------------------
+kNN :                            1%
+kNN with Features:         0.7%
+Hist. Oriented Gradient:  4%
+Local Binary Pattern:      4%
+
 
 ### Future Enhancements
-Experiment with different distance metrics and algorithms to enhance accuracy.
-Implement deep learning approaches for image matching.
-Explore ways to optimize and speed up the image preprocessing steps.
+1. Implement deep learning approaches for image matching.
+2. Utilize vector database
